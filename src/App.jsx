@@ -1,19 +1,19 @@
-import Logo from "./components/Logo";
-import ListaDeTareas from "./components/ListaDeTarea";
-function App() {
-  return (
-    <div className="flex flex-wrap justify-center items-center">
-      <Logo></Logo>
+import { TwitterFollowCard } from "./TwitterFollowCard"
+export function App(){
+    const format=(userName)=>`@${userName}`
 
-      <div className="w-[600px] min-h-[500px] bg-[#d0d0d5] p-6 m-3  rounded-3xl flex flex-col  items-center ">
-        <h1 className="text-3xl text-[#1b1b32] font-bold font-Roboto text-center mb-4 my-5 ">
-          Mis Tareas
-         <ListaDeTareas/>
-        </h1>
-       
-      </div>
-    </div>
-  );
+    return(
+        <section className='flex flex-col gap-3'>
+            <TwitterFollowCard formatUserName={format} userName="midudev" >
+                Miguel Ángel Durán
+            </TwitterFollowCard>
+            <TwitterFollowCard formatUserName={format} userName="Sdesalvaje" initialIsFollowing={true}>
+                Salvaje
+            </TwitterFollowCard>
+            <TwitterFollowCard formatUserName={format} userName="SupraPixel" initialIsFollowing={true}>
+                SupraPixel
+            </TwitterFollowCard>
+            
+        </section>
+    )
 }
-
-export default App;
