@@ -1,12 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 @tailwind base;
 @tailwind components;
-    .button{
-        @apply w-64 h-20 font-bold text-white text-4xl rounded-2xl border-2 m-1 cursor-pointer hover:bg-[#00471b]
-    }
-    .buttonClick{
-        @apply button bg-[#002ead]
-    }
-    .buttonRestar{
-        @apply  button bg-[#5a01a7]
-    }
 @tailwind utilities;
