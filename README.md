@@ -19,4 +19,6 @@ Twitter follow Card: https://twitter-card-5151.netlify.app/
 Repo:https://github.com/Kevin-AC/Proyectos-React/tree/PrimerProyecto    
 //**//  
 TicTacToe : https://taupe-custard-511d90.netlify.app/    
-Repo : https://github.com/Kevin-AC/Proyectos-React/tree/TicTacToe    
+Repo : https://github.com/Kevin-AC/Proyectos-React/tree/TicTacToe   
+![Diseño sin título (1)](https://user-images.githubusercontent.com/56416438/230693692-976bd5e6-b76a-47b3-a7cd-6f1e9762fff3.png)
+
