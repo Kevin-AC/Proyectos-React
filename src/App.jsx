@@ -24,7 +24,7 @@ function App() {
       <div className="w-full h-14 m-1 flex justify-center items-center">
         <img
           className="h-10"
-          src="src/image/freecodecamp-logo.png"
+          src="/image/freecodecamp-logo.png"
           alt="logoFreecodeCamp"
         />
       </div>
