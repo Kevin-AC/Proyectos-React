@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="flex flex-wrap justify-center items-center pt-4 ">
       <div className="w-screen flex items-center justify-center m-5">
-        <img className="h-14" src="src/image/freecodecamp-logo.png" alt="logo freecodecamp" />
+        <img className="h-14" src="/image/freecodecamp-logo.png" alt="logo freecodecamp" />
       </div>
       <div className="h-[550px] min-w-[600px] flex flex-col flex-wrap items-center justify-center  ">
         <Counter numClicks={numClicks}/>
